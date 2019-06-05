@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss">
 .table {
- width: 100%;
+
   border: 0;
   tr {
     cursor: pointer;

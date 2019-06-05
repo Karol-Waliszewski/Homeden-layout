@@ -3,10 +3,10 @@
     <header class="shopping__header">
       <img class="icon" src="../assets/icons/bag.png" alt="torba na zakupy">
       <h2 class="shopping__heading">Ostatnio dokonane zakupy</h2>
-      <shopFilter class="shopping__table"></shopFilter>
+      <shopFilter></shopFilter>
     </header>
     <div class="shopping__content">
-      <shopTable :data="tableData"></shopTable>
+      <shopTable  class="shopping__table" :data="tableData"></shopTable>
     </div>
   </section>
 </template>
