@@ -54,7 +54,9 @@ export default {
 
 <style lang="scss" scoped>
 .stats {
-  max-width: 400px;
+  @media screen and (min-width: 768px) {
+    max-width: 400px;
+  }
 }
 
 .stats__header {
@@ -78,7 +80,6 @@ export default {
 .stats__heading {
   font-size: 26px;
   color: #000000;
-  font-family: "Proxima Nova";
   font-weight: bold;
 }
 
@@ -90,14 +91,16 @@ export default {
   font-size: 15px;
   line-height: 21px;
   color: #a1a1a1;
-  font-family: "Proxima Nova";
   font-weight: 300;
   margin-bottom: 30px;
 }
 
 .stats__chart {
-  width: 180px;
+  width: 70%;
   margin-bottom: 25px;
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
 }
 
 .stats__summary {
@@ -106,21 +109,22 @@ export default {
   align-items: center;
   max-width: 200px;
   margin-bottom: 1rem;
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+  }
 }
 
 .stats__key {
-  max-width: 50%;
   line-height: 15px;
   color: #a1a1a1;
-  font-family: "Proxima Nova";
   font-weight: 300;
+  margin-right: 0.5rem;
 }
 
 .stats__value {
   font-size: 36px;
   //line-height: 60px;
   color: #000000;
-  font-family: "Proxima Nova";
   font-weight: 300;
 }
 </style>

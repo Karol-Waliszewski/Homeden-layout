@@ -32,10 +32,10 @@ export default {
   text-transform: uppercase;
   font-size: 13px;
   color: #a1a1a1;
-  font-family: "Proxima Nova";
 }
 
 .table__heading {
+  font-weight: 600;
   &:first-child {
     padding-left: 50px;
     padding-top: 25px;
@@ -66,12 +66,14 @@ export default {
 .table__data {
   font-size: 14px;
   color: #000000;
-  font-family: "Proxima Nova";
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  min-width: 150px;
+  font-weight: 600;
 
   &:first-child {
     padding-left: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
     position: relative;
     &::before {
       content: "";
@@ -86,12 +88,6 @@ export default {
       opacity: 0;
       transition: opacity 200ms;
     }
-  }
-
-  &:not(:first-child) {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
   }
 }
 </style>

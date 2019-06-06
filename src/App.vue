@@ -31,6 +31,7 @@ export default {
 
 body {
   background-color: #002ac1;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .wrapper {
@@ -49,17 +50,27 @@ body {
 
 .row {
   display: flex;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 }
 
 .col--big {
   flex: 3;
-  margin-right: 0.5rem;
+  @media screen and (min-width: 768px) {
+    margin-right: 0.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 2rem;
+  }
 }
 
 .col--small {
   flex: 1;
   flex-shrink: 1;
-  margin-left: 0.5rem;
+  @media screen and (min-width: 768px) {
+    margin-left: 0.5rem;
+  }
 }
 
 .card {

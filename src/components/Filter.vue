@@ -24,7 +24,6 @@ export default {
 .filter__text {
   font-size: 14px;
   color: #1d2329;
-  font-family: "Proxima Nova";
 }
 
 .filter__button {
