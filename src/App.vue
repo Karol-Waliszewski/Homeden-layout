@@ -30,8 +30,11 @@ export default {
 }
 
 body {
-  background-color: #002ac1;
-  font-family: 'Nunito Sans', sans-serif;
+  background: linear-gradient(to bottom, #002ac1 40%, #fff 2%);
+  font-family: "Nunito Sans", sans-serif;
+  @media screen and (max-width: 968px) {
+    background: #002ac1;
+  }
 }
 
 .wrapper {

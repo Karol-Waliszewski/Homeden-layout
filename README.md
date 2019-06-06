@@ -1,29 +1,25 @@
-# homeden-task
+# Homeden Layout
 
-## Project setup
-```
-yarn install
-```
+> Simple PSD to Vue
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+![preview](./preview.png)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Live preview
 
-### Run your tests
-```
-yarn run test
-```
+Live preview is available here: https://karol-waliszewski.github.io/Homeden-layout/
 
-### Lints and fixes files
-```
-yarn run lint
-```
+## Development server
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run `npm serve` or `yarn serve` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+
+## Build
+
+Run `npm build` or `yarn build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+### Technologies 🔧 
++ [Vue](https://vuejs.org/)
+
+#### Meta
+Karol Waliszewski - [github](https://github.com/Karol-Waliszewski) - [karolwaliszewski@gmail.com](mailto:karolwaliszewski@gmail.com)
+
+https://karol-waliszewski.github.io/Homeden-layout/
