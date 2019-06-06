@@ -33,28 +33,28 @@ export default {
           rabat: 10
         },
         {
-          client: "Paweł Nowakowski",
-          product: "Elegant fence 1800/1950 x 1800mm",
-          cost: 6000,
-          rabat: 10
+          client: "Karol Kowalski",
+          product: "Modern fence 1200/1250 x 1200mm",
+          cost: 4620,
+          rabat: 20
         },
         {
-          client: "Paweł Nowakowski",
-          product: "Elegant fence 1800/1950 x 1800mm",
+          client: "Mariusz Kwiatkowski",
+          product: "Elegant fence 1500/1250 x 1600mm",
           cost: 6000,
-          rabat: 10
+          rabat: 15
         },
         {
-          client: "Paweł Nowakowski",
-          product: "Elegant fence 1800/1950 x 1800mm",
-          cost: 6000,
-          rabat: 10
+          client: "Karol Kowalski",
+          product: "Modern fence 1200/1250 x 1200mm",
+          cost: 4620,
+          rabat: 20
         },
         {
-          client: "Paweł Nowakowski",
-          product: "Elegant fence 1800/1950 x 1800mm",
+          client: "Mariusz Kwiatkowski",
+          product: "Elegant fence 1500/1250 x 1600mm",
           cost: 6000,
-          rabat: 10
+          rabat: 15
         }
       ]
     };
@@ -95,7 +95,7 @@ export default {
   display: flex;
   font-size: 26px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
 
   @media screen and (max-width: 678px) {
     margin-bottom: 1rem;

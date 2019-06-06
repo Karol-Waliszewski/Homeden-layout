@@ -50,17 +50,17 @@ body {
 
 .row {
   display: flex;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 968px) {
     display: block;
   }
 }
 
 .col--big {
   flex: 3;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 968px) {
     margin-right: 0.5rem;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 968px) {
     margin-bottom: 2rem;
   }
 }
@@ -68,7 +68,7 @@ body {
 .col--small {
   flex: 1;
   flex-shrink: 1;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 968px) {
     margin-left: 0.5rem;
   }
 }

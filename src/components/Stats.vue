@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 .stats {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 968px) {
     max-width: 400px;
   }
 }
@@ -80,7 +80,7 @@ export default {
 .stats__heading {
   font-size: 26px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .stats__content {
